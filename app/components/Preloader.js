@@ -1,6 +1,12 @@
 var React = require('react');
 
 module.exports = React.createClass({
+	componentDidMount: function(){
+		setTimeout(() => {
+			$('.preloader').fadeOut('slow');
+		}, 2000);
+	},
+	
 	render: function(){
 		return (
 			<div className="preloader">
