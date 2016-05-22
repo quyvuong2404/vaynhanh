@@ -8,7 +8,7 @@ module.exports = React.createClass({
 	                <div className="row">
 	                    <div className="col s12 l8 offset-l2">
 	                        <div className="center-heading" style={{marginBottom: 0}}>
-	                            <h3>TÍN CHẤP</h3>
+	                            <h3>VAY TÍN CHẤP</h3>
 	                            <span className="center-line red"></span>
 	                        </div>
 	                    </div>
@@ -21,9 +21,6 @@ module.exports = React.createClass({
 	                                <h4 className="trans-effect">CHO VAY ĐẦU TƯ NHÀ XƯỞNG, NHÀ KHO, VĂN PHÒNG</h4>
 	                                <ul>
 	                                	<li>Đáp ứng nhu cầu vốn thanh toán tiền mua đất, thuê đất và tiền xây dựng, sửa chữa nhà xưởng, nhà kho, văn phòng (bao gồm cả nhà xưởng, nhà kho, văn phòng trong và ngoài khu công nghiệp, khu kinh tế, khu công nghệ cao).</li>
-	                                	<li>Tiền lãi tính trên dư nợ giảm dần.</li>
-	                                	<li>Dư nợ gốc có thể trả hàng tháng, hàng quý hoặc hàng 06 tháng (có thể được ân hạn trả gốc trong thời gian đầu).</li>
-	                                	<li>Thủ tục đơn giản, nhanh chóng.</li>
 	                                </ul>
 	                            </div>
 	                        </div>
