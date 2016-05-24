@@ -7,81 +7,56 @@ module.exports = React.createClass({
 
 	render: function(){
 		return(
-			<section id="section3" className="section moveDown describe-section z-depth-1">
+			<section id="section4" style={{background: 'rgba(0, 108, 179, 0.75)'}} className="section moveDown describe-section z-depth-1">
 	            <div className="overlay-blue-shade"></div>
 		            <div className="sec-padded-1x">
 		                <div className="container">
 		                    <div className="row" style={{marginBottom:0}}>
 		                        <div className="col s12 l8 offset-l2">
-		                            <div className="center-heading">
-		                                <h3 className="white-text">How We Build it</h3>
+		                            <div className="center-heading" style={{marginBottom:0}}>
+		                                <h3 className="white-text" style={{marginBottom:0}}>Vay Tín Chấp</h3>
 		                                <span className="center-line red"></span>
 		                            </div>
 		                        </div>
 		                    </div>
 		                    <div className="row">
-		                        <div className="col s12">
-		                            <ul className="tabs z-depth-2">
-		                                <li className="tab col s3"><a href="#tab-video" className="active">Video Preview</a></li>
-		                                <li className="tab col s3"><a href="#tab-heart">The Heart</a></li>
-		                                <li className="tab col s3"><a href="#tab-compare">Compare</a></li>
-		                            </ul>
-		                        </div>
-		                        <div id="tab-video" className="col s12 tab-content wow fadeIn">
-		                            <div className="col s12 m10 offset-m1">
-		                                <div className="video-box">
-		                                    <img src="public/images/bg-screen-4.png" alt="" className="responsive-img center-block" />
-		                                    <button className="video-trigger btn-floating btn-large waves-effect waves-light red md-trigger" data-modal="m-video"><i className="ion-ios-play"></i></button>
-		                                </div>
-		                            </div>
-		                        </div>
 		                        <div id="tab-heart" className="col s12 tab-content wow fadeIn">
-		                            <div className="col s12 m6 l6 center">
-		                                <img src="public/images/bg-screen-1.png" alt="" className="responsive-img" />
-		                            </div>
-		                            <div className="col s12 m6 l6">
-		                                <h3>The Heart</h3>
-		                                <p>Duis posuere auctor erat nec lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, tortor urna luctus metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque.</p>
-		                                <ul>
-		                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed in voluptate velit esse cillum dolore eu fugiat nulla pariatur</li>
-		                                    <li>Pellentesque vestibulum. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, tortor urna luctus metus. Lorem ipsum dolor sit ame</li>
-		                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed in voluptate velit esse cillum dolore eu fugiat nulla pariatur</li>
-		                                    <li>Dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum. Pellentesque vestibulum, sem vitae sollicitudin scelerisque</li>
+		                        	<div className="col s12 m4 l3 left-align">
+		                        		<h3 className="center">Đặc Điểm</h3>
+		                        		<p>Hạn mức cho vay tối đa lên tới 10 tháng lương, không quá 500 triệu đồng.</p>
+		                        		<p>Thời gian cho vay tối đa lên đến 48 tháng.</p>
+		                        		<p>Số tiền trả hàng tháng bằng nhau, trong đó lãi theo dư nợ giảm dần.</p>
+		                        		<p>Thủ tục cho vay đơn giản, lãi suất cạnh tranh và thời gian phê duyệt nhanh chóng.</p>
+		                        	</div>
+		                        	<div className="col s12 m4 l5">
+		                                <h3>Tín Chấp Cá Nhân</h3>
+		                                <ul className="number-style left-align">
+		                                    <li>Điều kiện vay tín chấp theo lương
+		                                    	<ul className="list-style">
+		                                    		<li>Công tác tại công ty trên 3 tháng.</li>
+		                                    		<li>Tổng thu nhập tối thiểu 3 triệu ( bao gồm lương + thu nhập ).</li>
+													<li>Có hợp đồng lao động.</li>
+		                                    	</ul>
+		                                    </li>
+		                                    <li>Điều kiện vay theo bảo hiểm nhân thọ
+		                                    	<ul className="left-align list-style">
+		                                    		<li>Hợp đồng bảo hiểm nhân thọ trên 1 năm.</li>
+		                                    		<li>Chấp nhận tất cả các hợp đồng bảo hiểm : AIA, PRUDENTIAL, MANULIFE, CATHAY LIFE …</li>
+		                                    	</ul>
+		                                    </li>
+		                                    <li>Điều kiện vay theo hóa đơn tiền điện
+		                                    	<ul className="left-align list-style">
+		                                    		<li>Hóa đơn điện phải trên 300 ngàn/ tháng.</li>
+		                                    		<li>Người đi vay phải là người đứng tên trên hóa đơn tiền điện.</li>
+		                                    	</ul>
+		                                    </li>
 		                                </ul>
 		                            </div>
-		                        </div>
-		                        <div id="tab-compare" className="col s12 tab-content wow fadeIn">
-		                            <div className="col s12 m6 l6">
-		                                <h3>Your Benefits</h3>
-		                                <p>Duis posuere auctor erat nec lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, tortor urna luctus metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque.</p>
-		                                <p>Eros luctus eu id eu metus potenti eros litora, a congue convallis iaculis sollicitudin nisi nam elementum, volutpat himenaeos egestas etiam ac eu molestie.</p>
-		                                <div className="progress-box">
-		                                    <span>Feature 1</span>
-		                                    <div className="progress z-depth-1">
-		                                        <div className="determinate wow slideInLeft feature-1"></div>
-		                                    </div>
-		                                </div>
-		                                <div className="progress-box">
-		                                    <span>Feature 2</span>
-		                                    <div className="progress z-depth-1">
-		                                        <div className="determinate wow slideInLeft feature-2"></div>
-		                                    </div>
-		                                </div>
-		                                <div className="progress-box">
-		                                    <span>Feature 3</span>
-		                                    <div className="progress z-depth-1">
-		                                        <div className="determinate wow slideInLeft feature-3"></div>
-		                                    </div>
-		                                </div>
-		                                <div className="progress-box">
-		                                    <span>Feature 4</span>
-		                                    <div className="progress z-depth-1">
-		                                        <div className="determinate wow slideInLeft feature-4"></div>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                            <div className="col s12 m6 l6 center">
-		                                <img src="public/images/bg-screen-3.png" alt="" className="responsive-img" />
+		                            <div className="col s12 m4 l4 left-align">
+		                                <h3>Cho Vay Hộ Kinh Doanh</h3>
+		                                <p>Nhằm hỗ trợ cho tiểu thương các trợ có thêm nguồn vốn kinh doanh.</p>
+		                                <p>Gói chương trình cho vay tiểu thương 100 triệu sẽ được triển khai từ với lãi suất ưu đãi nhất 1.4%/tháng, không dùng tài sản đảm bảo.</p>
+		                                <p>Ưu đãi cho vay tiểu thương chợ.</p>
 		                            </div>
 		                        </div>
 		                    </div>

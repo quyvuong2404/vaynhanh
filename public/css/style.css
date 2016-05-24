@@ -34,7 +34,7 @@ ul{
     width:100px;
     height: 2px;
     display: inline-block;
-    margin: 13px auto;
+    margin: 9px auto;
 }
 .center-heading p {
     font-size: 18px;
@@ -757,6 +757,17 @@ ul{
     background-color: #F44336;
     border-radius: 3px;
 }
+.describe-section .tab-content ul.list-style{
+    padding: 0 10px;
+}
+.describe-section .tab-content ul.list-style li{
+    padding-left: 10px;
+}
+.describe-section .tab-content ul.list-style li:before{
+    content: "•";
+    font-size: 20px;
+    margin-right: 10px;
+}
 .describe-section .tab-content {
     position: relative;
     z-index: 1;
@@ -774,11 +785,11 @@ ul{
     font-weight: 300;
     margin-bottom: 15px;
 }
-.describe-section .tab-content ul {
+.describe-section .tab-content ul.number-style {
     padding: 0;
     list-style-type: none;
 }
-.describe-section .tab-content ul li {
+.describe-section .tab-content ul.number-style > li {
     position: relative;
     font-size: 16px;
     font-weight: 300;
@@ -787,20 +798,19 @@ ul{
     padding-left: 35px;
     color: #fff;
 }
-.describe-section .tab-content ul li:before {
+.describe-section .tab-content ul.number-style > li:before {
     content: "1.";
     position: absolute;
-    top: 7px;
     left: 0;
-    font-size: 30px;
+    font-size: 20px;
 }
-.describe-section .tab-content ul li:nth-child(2):before {
+.describe-section .tab-content ul.number-style > li:nth-child(2):before {
     content: "2.";
 }
-.describe-section .tab-content ul li:nth-child(3):before {
+.describe-section .tab-content ul.number-style > li:nth-child(3):before {
     content: "3.";
 }
-.describe-section .tab-content ul li:last-child:before {
+.describe-section .tab-content ul.number-style > li:nth-child(4):before {
     content: "4.";
 }
 .describe-section .tab-content .progress-box span {
@@ -1105,5 +1115,238 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
     }
     .md-content .row {
         margin-bottom: 10px
+    }
+}
+
+
+/* *****************************************************************
+ * 4. Home Section
+ * ************************************************************** */
+
+.home-section {
+    overflow: visible;
+    background: url('../images/bg-intro.jpg');
+}
+.home-section::before {
+    background: url('../images/bg-intro.jpg');
+}
+.hero-text {
+    position: relative;
+    padding-top: 170px !important;
+}
+.hero-text h1 {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.hero-text h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+.typed-cursor {
+    position: relative;
+    top: -4px;
+    font-weight: 300;
+}
+.hero-text p {
+    margin-bottom: 30px;
+}
+.btn-download {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    background: #fff url('../images/playstore.jpg') center center no-repeat;
+    background-size: contain;
+}
+.btn-link {
+    position: relative;
+    opacity: .8;
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    animation: arrow-animation 750ms ease-in-out infinite alternate;
+    -moz-animation: arrow-animation 750ms ease-in-out infinite alternate;
+    -webkit-animation: arrow-animation 750ms ease-in-out infinite alternate;
+    -o-animation: arrow-animation 750ms ease-in-out infinite alternate;
+}
+.btn-link i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    animation-duration: 5s;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+@keyframes arrow-animation {
+  from {
+    top: -5px;
+  }
+  to {
+    top: 5px;
+  }
+}
+@-webkit-keyframes arrow-animation {
+  from {
+    top: -5px;
+  }
+  to {
+    top: 5px;
+  }
+}
+@-moz-keyframes arrow-animation {
+  from {
+    top: -5px;
+  }
+  to {
+    top: 5px;
+  }
+}
+@-o-keyframes arrow-animation {
+  from {
+    top: -5px;
+  }
+  to {
+    top: 5px;
+  }
+}
+.btn-link:hover,
+.btn-link:focus {
+    opacity: 1;
+}
+.btn-download:hover,
+.btn-download:focus {
+    background-color: #fff;
+}
+.android-wrapper {
+    width: 336px;
+    height: 552px;
+    background-repeat: no-repeat;
+    background-image: url(../images/android-cover.png);
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    bottom: -30px;
+    margin: 60px auto 0px;
+}
+.android-inner {
+    width: 263px;
+    height: 468px;
+    position: absolute;
+    top: 45px;
+    left: 37px;
+    background-color: #00AEFF;
+    overflow: hidden;
+}
+.android-inner .hero-slider {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.android-inner .hero-slider img {
+    width: 100%;
+}
+.android-inner .flex-direction-nav a {
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    opacity: 1;
+    text-shadow: none;
+    background-color: #F44336;
+}
+.android-inner .hero-slider:hover .flex-prev {
+    left: 0;
+    border-radius: 0 3px 3px 0; 
+}
+.android-inner .hero-slider:hover .flex-next {
+    right: 0;
+    border-radius: 3px 0 3px; 
+}
+.android-inner .flex-direction-nav a:before {
+    display: none;
+}
+.android-inner .flex-direction-nav a.flex-next:before {
+    display: none;
+}
+@media only screen and ( max-width:1075px ) {
+    .android-wrapper {
+        width: 290px;
+        height: 510px;
+        margin-bottom: 90px;
+    }
+    .android-inner {
+        width: 243px;
+        height: 432px;
+        top: 42px;
+        left: 24px;
+    }
+}
+@media only screen and ( max-width:992px ) {
+    .hero-text h1 {
+        font-size: 36px;
+        line-height: inherit;
+        margin-bottom: 0;
+    }
+    .hero-text h2 {
+        font-size: 32px;
+        line-height: inherit;
+    }
+    .btn-download {
+        width: 170px;
+        height: 60px;
+    }
+    .btn-link {
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+    }
+}
+@media only screen and ( max-width:767px ) {
+    .hero-text {
+        text-align: center;
+        padding-top: 150px !important;
+    }
+    .hero-text h1 {
+        font-size: 32px;
+    }
+    .hero-text h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .hero-text p {
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .btn-link {
+        display: none;
+    }
+    .android-wrapper {
+        margin: 0px auto;
+        height: 495px;
+    }
+    .android-inner {
+        width: 236px;
+        height: 419px;
+        top: 41px;
+        left: 28px;
+    }
+    .android-inner .flex-direction-nav .flex-next {
+        right: 0;
+    }
+    .android-inner .flex-direction-nav .flex-prev {
+        left: 0;
     }
 }
