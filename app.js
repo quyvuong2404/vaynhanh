@@ -5,7 +5,7 @@ var Main = require('./app/components/Main');
 // Import style sheet
 require('./public/css/ionicons.min.css');
 require('./public/css/materialize.min.css');
-require('./public/css/jquery.fullPage.css');
+require('./public/css/flexslider.css');
 require('./public/css/style.css');
 
 'use strict';

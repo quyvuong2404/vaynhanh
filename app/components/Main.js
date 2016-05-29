@@ -1,10 +1,20 @@
 var React = require('react');
 var Preloader = require('./Preloader');
 var Nav = require('./Nav');
-var Body = require('./Body');
+var ContactModal = require('./ContactModal');
+var Section0 = require('./Section0');
+var Section1 = require('./Section1');
+var Section2 = require('./Section2');
+var Section3 = require('./Section3');
+var Section4 = require('./Section4');
+var Section5 = require('./Section5');
+var Section6 = require('./Section6');
+
 
 module.exports = React.createClass({
 	componentDidMount: function(){
+		$('.btn-link,.nav-wrapper .main-nav li a,.nav-wrapper .side-nav li a').smoothScroll({offset: -50, speed: 900});
+
 		var ModalEffects = (function () {
 
 	        function init() {
@@ -55,34 +65,12 @@ module.exports = React.createClass({
 			<div>
 				<Preloader />
 				<Nav />
-				<Body />
-				<div className="md-modal md-effect-1 valign-wrapper" id="m-contact">
-		            <div className="md-content z-depth-2">
-		                <h3>Đăng Ký Vay Vốn</h3>
-		                <a className="md-close"><i className="ion-android-close"></i></a>
-		                <div className="row">
-		                    <form id="contactForm" className="col s12">
-		                        <div className="row">
-		                            <div className="input-field col s12">
-		                                <input id="last_name" name="fullname" type="text" />
-		                                <label for="last_name">Last Name</label>
-		                            </div>
-		                            <div className="input-field col s12">
-		                                <input id="email" name="email" type="email" />
-		                                <label for="email">Email</label>
-		                            </div>
-		                            <div className="input-field col s12">
-		                                <textarea id="textarea" name="message" className="materialize-textarea"></textarea>
-		                                <label for="textarea">Textarea</label>
-		                            </div>
-		                            <div className="input-field col s12">
-		                                <input className="waves-effect waves-light btn red center" type="submit" value="Gửi" />
-		                            </div>
-		                        </div>
-		                    </form>
-		                </div>
-		            </div>
-		        </div>
+				<Section5 />
+				<Section0 />
+				<Section3 />
+				<Section6 />
+				<Section4 />
+				<ContactModal />
 			</div>
 		);
 	}

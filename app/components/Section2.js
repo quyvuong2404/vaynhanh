@@ -3,7 +3,7 @@ var React = require('react');
 module.exports = React.createClass({
 	render: function(){
 		return(
-			<section className="section moveDown overview-section sec-padded-1x" id="section3">
+			<section className="overview-section sec-padded-1x" id="overview">
 				<div className="container">
 	                <div className="row">
 	                    <div className="col s12 l8 offset-l2">

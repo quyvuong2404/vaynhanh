@@ -3,26 +3,10 @@ var React = require('react');
 module.exports = React.createClass({
 	render: function(){
 		return(
-			<section id="section1" className="section faq-section sec-padded-1x z-depth-1">
+			<section id="faq" className="faq-section sec-padded-1x z-depth-1">
 	            <div className="container">
 	                <div className="row">
-	                    <div className="col m5 l7 features-section-row right white-text" style={{marginTop:'20px'}}>
-	                        <div className="features-section-box left two">
-	                            <i className="ion-ios-pricetags z-depth-1 trans-effect" style={{textShadow: 'none',boxShadow:'none',color:'white'}}></i>
-	                            <div className="features-text ">
-	                                <h4 className="trans-effect">Điều kiện vay thế chấp</h4>
-	                                <p>Khách hàng vay thế chấp phải trên 18 tuổi và không quá 60 tuổi.<br/>Khoản vay được đảm bảo bằng tài sản thế chấp như sổ đỏ hoặc các tài sản giá trị, phương tiện vận tải,…<br/>Khách hàng vay vốn cần có mục đích vay cụ thể và hợp pháp.<br/>Có đủ khả năng tài chính để đảm bảo trả nợ khoản vay.</p>
-	                            </div>
-	                        </div>
-	                        <div className="features-section-box right top four">
-	                            <i className="ion-cash z-depth-1 trans-effect" style={{textShadow:'none',boxShadow:'none',color:'white'}}></i>
-	                            <div className="features-text ">
-	                                <h4 className="trans-effect">Hồ sơ thủ tục vay thế chấp</h4>
-	                                <p>Giấy đề nghị vay vốn thế chấp ngân hàng theo mẫu.<br/>Giấy tờ tuỳ thân khách hàng: bản sao giấy CMND, hộ khẩu, đăng ký tạm trú.<br/>Giấy chứng nhận đăng ký kinh doanh (đối với khách hàng vay vốn kinh doanh).<br/>Hồ sơ chưng minh nguồn thu nhập: bảng lương và các giấy tờ chứng minh thu nhập từ nguồn thu kinh doanh.<br/>Giấy tờ phương án sử dụng vốn vay hợp pháp.<br/>Giấy tờ liên quan đến tài sản thế chấp, giấy tờ liên quan đến bất động sản, giấy tờ có giá,….</p>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div className="col s12 m7 l5">
+	                    <div className="col s12 m6 l5">
 	                        <div className="center-heading">
 	                            <h3 className="white-text">VAY THẾ CHẤP</h3>
 	                            <span className="center-line red"></span>
@@ -76,6 +60,22 @@ module.exports = React.createClass({
 	                                </div>
 	                            </li>
 	                        </ul>
+	                    </div>
+	                    <div className="col m6 l7 features-section-row right white-text" style={{marginTop:'20px'}}>
+	                        <div className="features-section-box left two">
+	                            <i className="ion-ios-pricetags z-depth-1 trans-effect" style={{textShadow: 'none',boxShadow:'none',color:'white'}}></i>
+	                            <div className="features-text ">
+	                                <h4 className="trans-effect">Điều kiện vay thế chấp</h4>
+	                                <p>Khách hàng vay thế chấp phải trên 18 tuổi và không quá 60 tuổi.<br/>Khoản vay được đảm bảo bằng tài sản thế chấp như sổ đỏ hoặc các tài sản giá trị, phương tiện vận tải,…<br/>Khách hàng vay vốn cần có mục đích vay cụ thể và hợp pháp.<br/>Có đủ khả năng tài chính để đảm bảo trả nợ khoản vay.</p>
+	                            </div>
+	                        </div>
+	                        <div className="features-section-box right top four">
+	                            <i className="ion-cash z-depth-1 trans-effect" style={{textShadow:'none',boxShadow:'none',color:'white'}}></i>
+	                            <div className="features-text ">
+	                                <h4 className="trans-effect">Hồ sơ thủ tục vay thế chấp</h4>
+	                                <p>Giấy đề nghị vay vốn thế chấp ngân hàng theo mẫu.<br/>Giấy tờ tuỳ thân khách hàng: bản sao giấy CMND, hộ khẩu, đăng ký tạm trú.<br/>Giấy chứng nhận đăng ký kinh doanh (đối với khách hàng vay vốn kinh doanh).<br/>Hồ sơ chưng minh nguồn thu nhập: bảng lương và các giấy tờ chứng minh thu nhập từ nguồn thu kinh doanh.<br/>Giấy tờ phương án sử dụng vốn vay hợp pháp.<br/>Giấy tờ liên quan đến tài sản thế chấp, giấy tờ liên quan đến bất động sản, giấy tờ có giá,….</p>
+	                            </div>
+	                        </div>
 	                    </div>
 	                </div>
 	            </div>

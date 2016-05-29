@@ -11,29 +11,30 @@ module.exports = React.createClass({
 	            <nav>
 	                <div className="container">
 	                    <div className="nav-wrapper">
-	                        <a href="#" className="brand-logo"><img src="public/images/android.png" alt="" /></a>
+	                        <a href="#" className="brand-logo"><img src="public/images/logo.jpg" alt="" /></a>
 	                        <div className="social-icons">
 	                            <ul> 
-	                                <li><a className="icon icon-facebook btn-floating waves-effect" href="#"><i className="ion-social-facebook"></i></a></li>
+	                                <li><a className="icon icon-facebook btn-floating waves-effect" href="https://www.facebook.com/vohao2006" target="_blank"><i className="ion-social-facebook"></i></a></li>
 	                            </ul>
 	                        </div>
 	                        <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="ion-android-menu"></i></a>
 	                        
 	                        <ul id="menu" className="right main-nav">
-	                        	<li data-menuanchor="page0"><a className="waves-effect waves-light" href="#page0"><i className="ion-ios-home"></i></a></li>
-	                            <li data-menuanchor="page1"><a className="waves-effect waves-light" href="#page1">Vay Thế Chấp</a></li>
-	                            <li data-menuanchor="page2"><a className="waves-effect waves-light" href="#page2">Vay Tín Chấp</a></li>
-	                            <li data-menuanchor="page5"><a className="waves-effect waves-light" href="#page5">Liên Hệ</a></li>
-	                            <li data-menuanchor="page6"><a className="waves-effect waves-light" href="#page6">Contact</a></li>
-	                            <li><a href="#" className="nav-btn-download waves-effect waves-light btn red white-text"><i className="ion-android-cart left"></i>Đăng Ký!</a></li>
+	                        	<li><a className="waves-effect waves-light" href="#home"><i className="ion-ios-home"></i></a></li>
+	                            <li><a className="waves-effect waves-light" href="#faq">Vay Thế Chấp</a></li>
+	                            <li><a className="waves-effect waves-light" href="#describe">Vay Tín Chấp</a></li>
+	                            <li><a className="waves-effect waves-light" href="#testimonials">Bảo Hiểm Nhân Thọ</a></li>
+	                            <li><a className="waves-effect waves-light" href="#location">Liên Hệ</a></li>
+	                            <li><a href="#" className="nav-btn-download waves-effect waves-light btn red white-text md-trigger" data-modal="m-contact"><i className="ion-edit left"></i>Đăng Ký!</a></li>
 	                        </ul>
 
 	                        
 	                        <ul className="side-nav" id="mobile-demo">
-	                            <li><a className="waves-effect waves-light" href="#page0">Vay Thế Chấp</a></li>
-	                            <li><a className="waves-effect waves-light" href="#page1">Vay Tín Chấp</a></li>
-	                            <li><a className="waves-effect waves-light" href="#page4">Địa Điểm</a></li>
-	                            <li><a href="#" className="nav-btn-download waves-effect waves-light btn red white-text"><i className="ion-android-cart left"></i>Đăng Ký!</a></li>
+	                        	<li><a className="waves-effect waves-light" href="#home"><i className="ion-ios-home"></i></a></li>
+	                            <li><a className="waves-effect waves-light" href="#faq">Vay Thế Chấp</a></li>
+	                            <li><a className="waves-effect waves-light" href="#describe">Vay Tín Chấp</a></li>
+	                            <li><a className="waves-effect waves-light" href="#testimonials">Bảo Hiểm Nhân Thọ</a></li>
+	                            <li><a className="waves-effect waves-light" href="#location">Liên Hệ</a></li>
 	                        </ul>
 	                    </div>
 	                </div>

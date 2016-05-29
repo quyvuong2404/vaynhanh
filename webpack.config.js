@@ -23,7 +23,7 @@ module.exports = {
 			},
 			{
 				test: /\.((eot|woff|woff2|ttf|svg|png|jpg)(\?v=[0-9]\.[0-9]\.[0-9])?)$/,
-				loader: 'url?limit=30000'
+				loader: 'url?limit=30000&name=assets/[name].[ext]'
 			}
 		]
 	}

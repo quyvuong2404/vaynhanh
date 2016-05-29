@@ -11,7 +11,7 @@ module.exports = React.createClass({
 		return (
 			<div className="preloader">
 				<div className="loader-content">
-					<img src="public/images/logo.png" />
+					<img src="public/images/logo.jpg" />
 					<div className="progress">
 						<div className="indeterminate"></div>
 					</div>
