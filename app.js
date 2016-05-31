@@ -6,6 +6,7 @@ var Main = require('./app/components/Main');
 require('./public/css/ionicons.min.css');
 require('./public/css/materialize.min.css');
 require('./public/css/flexslider.css');
+require('./public/css/sweetalert.css');
 require('./public/css/style.css');
 
 'use strict';

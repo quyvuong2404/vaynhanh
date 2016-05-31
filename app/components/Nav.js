@@ -25,7 +25,7 @@ module.exports = React.createClass({
 	                            <li><a className="waves-effect waves-light" href="#describe">Vay Tín Chấp</a></li>
 	                            <li><a className="waves-effect waves-light" href="#testimonials">Bảo Hiểm Nhân Thọ</a></li>
 	                            <li><a className="waves-effect waves-light" href="#location">Liên Hệ</a></li>
-	                            <li><a href="#" className="nav-btn-download waves-effect waves-light btn red white-text md-trigger" data-modal="m-contact"><i className="ion-edit left"></i>Đăng Ký!</a></li>
+	                            <li><a href="javascript:void(0)" className="nav-btn-download waves-effect waves-light btn red white-text md-trigger" data-modal="m-contact"><i className="ion-edit left"></i>Đăng Ký!</a></li>
 	                        </ul>
 
 	                        
